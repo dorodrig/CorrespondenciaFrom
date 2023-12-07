@@ -1,0 +1,60 @@
+@use"./variables" as v;
+form{
+    display: grid;
+    width: 90%;
+    padding: 1rem,1rem;   
+    fieldset{
+        width: 90%;
+        align-items: center;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0.1rem 0;
+        background: v.$bg-fondo;
+         h3{
+        padding:0.55rem ;
+        background: v.$bg-fondo;
+        margin-bottom: 1rem;
+    } 
+    .ContdatosPrincipales{
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        padding: 0.1rem 1rem;        
+        width: 80%;
+        padding: 0 1rem;
+    }
+    .datosPrincipales{
+        display: flex;    
+        flex-direction: column;
+        text-align: center;
+        padding: 0.1rem 1rem;        
+        width: 70%;
+        height: 70%;
+        padding: 0 1rem;      
+    }
+    .contremitente{
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        padding: 0.1rem 1rem;        
+        width: 80%;
+        padding: 0 1rem;
+    }        
+    .remitente{
+        display: flex;    
+        flex-direction: column;
+        text-align: center;
+        padding: 0.1rem 1rem;        
+        width: 70%;
+        height: 70%;
+        padding: 0 1rem; 
+    }
+    input{
+      
+        cursor: pointer;              
+    }
+
+   }
+}
+   

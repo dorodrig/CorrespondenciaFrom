@@ -1,0 +1,34 @@
+$font-family: 'DM Sans', sans-serif;
+$font-size: 1.25rem;
+$color-label: white;
+
+$bg-fondo :hsla(243, 100%, 71%, 0.349);
+$bg-container: linear-gradient(
+to right top, 
+#f72585, 
+#e7088f, 
+#d40099, 
+#bd00a3, 
+#a200ac, 
+#920ab2, 
+#7f14b7, 
+#681cbc, 
+#5f25c0,
+ #562cc3, 
+ #4b32c6, 
+ #3f37c9);
+ $button-bg: linear-gradient(to bottom,
+  #f72585, 
+  #e7088f,
+  #d40099,
+  #bd00a3,
+  #a200ac,
+  #920ab2, 
+  #7f14b7,
+  #681cbc,
+  #5f25c0,
+  #562cc3,
+  #4b32c6,
+  #3f37c9);
+  $main-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;

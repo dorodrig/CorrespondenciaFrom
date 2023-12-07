@@ -1,0 +1,41 @@
+@use"./variables" as v;
+@mixin datosPrincipales(){
+    .contdatosdestinatario{
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        padding: 0.1rem 1rem;        
+        width: 80%;
+        padding: 0 1rem;
+    }
+    .datosdestinatario{
+        display: flex;    
+        flex-direction: column;
+        text-align: center;
+        padding: 0.1rem 1rem;        
+        width: 70%;
+        height: 70%;
+        padding: 0 1rem;      
+    }
+    .continformacioncorrespondencia{
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        padding: 0.1rem 1rem;        
+        width: 80%;
+        padding: 0 1rem;
+    }        
+    .informacioncorrespondencia{
+        display: flex;    
+        flex-direction: column;
+        text-align: center;
+        padding: 0.1rem 1rem;        
+        width: 70%;
+        height: 70%;
+        padding: 0 1rem; 
+    }
+    input{
+       
+        cursor: pointer;              
+    }
+}
